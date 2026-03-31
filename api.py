@@ -10,7 +10,9 @@ from pydantic import BaseModel
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 
-from app.db.connection import DB_PATH
+from app.db.connection import DB_PATH, init_db
+
+init_db()
 
 app = FastAPI()
 

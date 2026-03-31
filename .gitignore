@@ -3,6 +3,5 @@ __pycache__/
 .venv/
 .env
 .idea/
-*.db
 *.db-shm
 *.db-wal
