@@ -2,3 +2,8 @@ curl_cffi
 beautifulsoup4
 lxml
 pydantic
+fastapi
+uvicorn
+langchain
+langchain-core
+langchain-ollama
